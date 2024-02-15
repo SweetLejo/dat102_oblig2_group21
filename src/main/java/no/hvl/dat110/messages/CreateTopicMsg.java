@@ -5,7 +5,7 @@ public class CreateTopicMsg extends Message {
 	// message sent from client to create topic on the broker
 
     public CreateTopicMsg(String user, String topic) {
-
+        super(topic, user);
     }
 
 	// TODO: 
